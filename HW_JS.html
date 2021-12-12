@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+</head>
+<body>
+  <script type="text/javascript">
+
+    var x = 6;
+    var y = 14;
+    var z = 4;
+
+    x += y - x++*z;
+    // x = 6 + 14 - 6*4 = -4
+    document.write(x + "<br>")
+
+    var x = 6;
+    var y = 14;
+    var z = 4;
+
+    z = --x -y*5;
+    // z = 5 -14*5 = -65
+    document.write(z + "<br>")
+
+    var x = 6;
+    var y = 14;
+    var z = 4;
+
+    y /= x + 5%z;
+    // y = 14/(6 + 1) = 2
+    document.write(y + "<br>")
+
+    var x = 6;
+    var y = 14;
+    var z = 4;
+
+    z -= x++ + y*5;
+    // z = 4 - (6 + 14*5) = -72
+    document.write(z + "<br>")
+
+    var x = 6;
+    var y = 14;
+    var z = 4;
+
+    x = y - x++*z;
+    // x = 14 - 6*4 = -10
+    document.write(x + "<hr>")
+
+
+    alert(a+b);
+  </script>
+</body>
+</html>
